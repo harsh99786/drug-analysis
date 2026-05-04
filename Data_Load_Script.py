@@ -16,7 +16,7 @@ properties = {
 }
 
 # List of CSV files to load
-files = ["status.csv", "studypopulation.csv", "sponsor.csv", "medicalcondition.csv", "drugproduct.csv"]
+files = ["status.csv", "studypopulation.csv", "sponsor.csv", "medicalcondition.csv", "drugproduct.csv", "protocol.csv"]
 
 # Python loop to read each CSV and write to PostgreSQL
 for file in files:

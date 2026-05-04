@@ -8,7 +8,8 @@ keywords = [
     "drugproduct",
     "sponsor",
     "studypopulation",
-    "status"
+    "status",
+    "protocol"
 ]
 
 base_url = "https://health-products-dev.hres.ca/api/clinical-trial/{}/?lang=en&type=json"
@@ -19,7 +20,7 @@ for keyword in keywords:
         url = base_url.format(keyword)
 
         # Fetch data
-        response = requests.get(url, timeout=20)
+        response = requests.get(url, timeout=60)
         response.raise_for_status()
 
         data = response.json()
