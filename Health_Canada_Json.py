@@ -1,5 +1,6 @@
-import csv
 
+# importing necessary libraries
+import csv
 import requests
 import pandas as pd
 

@@ -1,9 +1,0 @@
-Last refreshed : 2026-04-30 19:01:33
-Views exported : 6
-
-  - reporting.rpt_protocol_summary
-  - reporting.rpt_protocols_by_status
-  - reporting.rpt_protocols_by_sponsor
-  - reporting.rpt_protocols_by_condition
-  - reporting.rpt_protocols_by_population
-  - reporting.rpt_top_manufacturers
