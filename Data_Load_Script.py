@@ -9,6 +9,7 @@ spark = SparkSession.builder \
 # JDBC connection properties
 jdbc_url = "jdbc:postgresql://localhost:5432/Clinical_Trial"
 
+#JDBC connection properties
 properties = {
     "user": "postgres",
     "password": "387162",
